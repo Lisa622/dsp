@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lists and tuples are both sequences of values of any type.  However, lists are mutable and tuples are immutable.  Tuples work as keys in dictionaries because keys cannot be mutable.
 
 ---
 
@@ -20,7 +20,7 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Both lists and sets are collections of items; however, sets are unordered and unique.  It is a lot quicker to find an element from a set compared to a list since the entired list needs to be searched, which is not necessary with sets since sets utilizes the hash function.
 
 ---
 
@@ -28,7 +28,8 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lambda is an anonymous function using the keyword 'lambda'.  It is useful for when you have a simple function that only needs to be used once.  
+sorted("This is a sample Sentence".split(), key=lambda x: x.lower())
 
 ---
 
@@ -36,7 +37,13 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehensions are simple ways to create a list by transforming another list.  
+nums = [5,32,6,17,53,97,84]
+sq_odd_nums = [n**2 for n in nums if n % 2 == 1]
+sq_odd_nums = map(lambda n: n**2, filter(lambda n: n % 2 == 1, nums))
+sq_nums_set = {n**2 for n in nums}
+sq_nums_dict = {n:n**2 for n in nums}
+
 
 ---
 
@@ -51,7 +58,7 @@ date_start = '01-02-2013'
 date_stop = '07-28-2015'
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> 937
 
 b.  
 ```
@@ -59,7 +66,7 @@ date_start = '12312013'
 date_stop = '05282015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> 513
 
 c.  
 ```
@@ -67,7 +74,7 @@ date_start = '15-Jan-1994'
 date_stop = '14-Jul-2015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE  (answer will be in number of days)
+>> 7850
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
