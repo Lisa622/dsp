@@ -189,7 +189,7 @@ What is the distribution of t-squared?
 >>
 
 ***
-***Answer:***F
+***Answer:***  F
 
 ####Q3.  
 In the scikit-learn's official source repo, about how many issues are outstanding? (go ahead and check out their page)  
@@ -201,7 +201,7 @@ In the scikit-learn's official source repo, about how many issues are outstandin
 >>
 
 ---
-***Answer:***700
+***Answer:***  700
 
 ## <a name="section-r"></a>References 
 
