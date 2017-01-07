@@ -175,7 +175,7 @@ What is the most installed language in the world?
 
 >>
 
-- **Answer:** Javascript
+- ***Answer:*** Javascript
 
 ####Q2.  
 In hypothesis testing, we use the t score when the sample size is < 30 and the populations SD is unknown; else we use the Z score. 
@@ -189,7 +189,7 @@ What is the distribution of t-squared?
 >>
 
 ***
-F
+***Answer:***F
 
 ####Q3.  
 In the scikit-learn's official source repo, about how many issues are outstanding? (go ahead and check out their page)  
@@ -201,7 +201,7 @@ In the scikit-learn's official source repo, about how many issues are outstandin
 >>
 
 ---
-700
+***Answer:***700
 
 ## <a name="section-r"></a>References 
 
