@@ -1,6 +1,7 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
 >> **-0.108450242544**
+***First babies are lighter than others.  The difference in means is .108 standard deviations, which is larger than the difference in pregnancy lengths (.029 standard deviations).***
 
 ```python
 import nsfg
