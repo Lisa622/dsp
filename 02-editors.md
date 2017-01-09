@@ -60,14 +60,13 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
+>> **Nano since Vim and Emacs has a steep learning curve**
 --
 
 ###Q2. Graphical Editor
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> **Sublime Text.  Looked through the learnpython subreddit for recommendations and this one was light and easy to learn.  Control+s and Control+b  to save file and run.**
 
  
