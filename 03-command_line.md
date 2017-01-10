@@ -33,7 +33,12 @@ What do the following commands do:
 `ls -t`  sorts by last edited
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls`  lists contents of current directory  
+`ls -a`  includes all hidden files  
+`ls -l`  use long list format  
+`ls -lh`  displays file size  
+`ls -lah`  the above three commands combined  
+`ls -t`  sorts by last edited  
 
 ---
 
