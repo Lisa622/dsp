@@ -46,11 +46,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > `ls -c` displays files by timestamp
-    `ls -R` displays subdirectories
-    `ls -x` displays files as rows
-    `ls -d` displays only directories
-    `ls -u` displays files by access time
+> > `ls -c` displays files by timestamp  
+    `ls -R` displays subdirectories  
+    `ls -x` displays files as rows  
+    `ls -d` displays only directories  
+    `ls -u` displays files by access time  
 ---
 
 ###Q4.  Xargs   
