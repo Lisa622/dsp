@@ -9,19 +9,28 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > pwd: print working directory
+    cd: change directory
+    CRTL + c:  abort
+    find . -name:  find file
+    man: information on commands
+    exit
+    touch: creates a file
+    nkdir: makes a directory
+    mv:  renames a file
+    cp: copy file
 
 ---
 
 ###Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
+`ls`  lists contents of current directory
+`ls -a`  includes all hidden files
+`ls -l`  use long list format
+`ls -lh`  displays file size
+`ls -lah`  the above three commands combined
+`ls -t`  sorts by last edited
 `ls -Glp`  
 
 > > REPLACE THIS TEXT WITH YOUR RESPONSE
