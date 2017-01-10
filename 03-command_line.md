@@ -50,7 +50,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
     `ls -R` displays subdirectories  
     `ls -x` displays files as rows  
     `ls -d` displays only directories  
-    `ls -u` displays files by access time  
+    `ls -u` displays files by access time   
 ---
 
 ###Q4.  Xargs   
